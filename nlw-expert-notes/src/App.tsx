@@ -28,7 +28,7 @@ export function App() {
 
         </div>
 
-        <div className='rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative'>
+        <div className='rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative pointer-events-none'>
           <span className='text-sm font-medium text-slate-300'>
             há 2 dias
           </span>
@@ -41,7 +41,7 @@ export function App() {
         </div>
 
 
-        <div className='rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative'>
+        <div className='rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative pointer-events-none'>
           <span className='text-sm font-medium text-slate-300'>
             há 4 dias
           </span>
@@ -53,7 +53,7 @@ export function App() {
           <div className='absolute botton-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0' />
         </div>
 
-        <div className='rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative'>
+        <div className='rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative pointer-events-none'>
           <span className='text-sm font-medium text-slate-200'>
             há 6 dias
           </span>
