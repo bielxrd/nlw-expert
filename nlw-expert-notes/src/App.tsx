@@ -4,6 +4,11 @@ import { NoteCard } from './components/node-card'
 
 export function App() {
 
+  const note = {
+    date: new Date(),
+    content: 'Hello World!'
+  }
+
 
   return (
     <div className='mx-auto max-w-6xl my-12 space-y-6'>
@@ -22,10 +27,8 @@ export function App() {
 
       <div className='grid grid-cols-3 gap-6 auto-rows-[250px]'>
         <NewNoteCard />
-        <NoteCard date={new Date("2024-02-16")} content='Hello World' />
-        <NoteCard date={new Date(2023, 10, 22)} content='Hello World' />
-        <NoteCard date={new Date(2022, 0o3, 19)} content='Hello World' />
-        <NoteCard date={new Date("2024-02-16")} content='Hello World' />
+        <NoteCard note={note} />
+
 
 
       </div>
