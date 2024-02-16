@@ -13,6 +13,7 @@
     "@radix-ui/react-dialog": "^1.0.5",
     "autoprefixer": "^9.8.8",
     "date-fns": "^3.3.1",
+    "lucide-react": "^0.331.0",
     "nativewind": "^2.0.11",
     "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
